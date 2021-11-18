@@ -1,1 +1,1 @@
-# Next.js Kit
+# Class Organization App using Next JS
