@@ -1,11 +1,8 @@
-/*!
-* Bootstrap Reboot v4.2.1 (https://getbootstrap.com/)
-* Copyright 2011-2018 The Bootstrap Authors
-* Copyright 2011-2018 Twitter, Inc.
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
-*/
-*,
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+ 
+ *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
@@ -281,7 +278,7 @@ template {
 [hidden] {
   display: none !important;
 } 
-
+ 
 html,
 body,
 p,
@@ -351,3 +348,11 @@ table th {
   text-align: left;
 }
 
+
+ 
+body{
+ background-color: #fafafa;
+}
+`
+
+export default GlobalStyles
