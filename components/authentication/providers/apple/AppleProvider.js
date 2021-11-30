@@ -6,7 +6,7 @@ import apple from "./apple.png";
 
 function AppleProvider({ children, ...props }) {
   return (
-    <ProviderButton>
+    <ProviderButton {...props}>
       <div>
         <Image src={apple} layout="fixed" width={24} height={24} quality={30} />
         <span> {children}</span>
