@@ -12,7 +12,7 @@ function UserProfile({age, fullName, address, ...props}){
     )
 }
 
-function index(props){
+function Index(props){
     // Read a single Doc from a collection
     const [users, setUsers] = useState([])
 
@@ -36,4 +36,4 @@ function index(props){
     }
 }
 
-export default index
+export default Index
